@@ -3,68 +3,99 @@
 <head>
 <meta charset="UTF-8">
 <title>Sofia | Software Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
 <style>
 body {
-  font-family: system-ui, Arial, sans-serif;
+  font-family: Inter, system-ui, Arial, sans-serif;
   margin: 0;
   color: #1f2933;
-  line-height: 1.6;
+  background: #fafafa;
+  line-height: 1.7;
 }
-section {
-  max-width: 900px;
+
+.container {
+  max-width: 880px;
   margin: auto;
-  padding: 80px 20px;
+  padding: 100px 20px;
 }
+
 .hero {
-  text-align: center;
-  padding-top: 120px;
+  padding-top: 140px;
 }
+
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 10px;
 }
+
 .hero p {
   font-size: 1.2rem;
   color: #555;
 }
-.project {
-  margin-bottom: 30px;
+
+section {
+  margin-top: 120px;
 }
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+.project {
+  margin-bottom: 35px;
+}
+
+.project strong {
+  font-size: 1.05rem;
+}
+
 .skills span {
   display: inline-block;
-  margin: 6px;
-  padding: 6px 12px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  font-size: 0.9rem;
+  margin: 6px 6px 6px 0;
+  padding: 7px 14px;
+  border-radius: 20px;
+  background: #eaeaea;
+  font-size: 0.85rem;
 }
+
 .links a {
-  margin-right: 15px;
+  margin-right: 20px;
+  font-weight: 600;
   text-decoration: none;
-  font-weight: bold;
+  color: #2563eb;
 }
+
+.links a:hover {
+  text-decoration: underline;
+}
+
 footer {
   text-align: center;
-  padding: 40px;
-  color: #666;
+  padding: 60px 20px;
+  color: #777;
 }
 </style>
 </head>
 
 <body>
 
-<section class="hero">
-<h1>Sofia</h1>
-<p>Full-Stack Developer — C#/.NET & TypeScript</p>
-<p>Building reliable, secure and maintainable software across fintech, SaaS and enterprise systems.</p>
-</section>
+<div class="container">
+
+<div class="hero">
+  <h1>Sofia</h1>
+  <p>Senior Full-Stack Developer — C#/.NET & TypeScript</p>
+  <p>Building reliable, secure and maintainable software across fintech, SaaS and enterprise systems.</p>
+</div>
 
 <section>
 <h2>About</h2>
 <p>
 Software developer with nearly 10 years in IT and 7+ years in full-stack development.
 Experienced in building and maintaining complex web, desktop and API systems using C#/.NET, React and SQL.
-Strong focus on clean architecture, testing, and long-term maintainability.
+Strong focus on clean architecture, testing and long-term maintainability.
 </p>
 </section>
 
@@ -74,25 +105,25 @@ Strong focus on clean architecture, testing, and long-term maintainability.
 <div class="project">
 <strong>Fintech Applications & Services</strong><br>
 C#, .NET, SQL Server<br>
-Maintained and enhanced financial systems, APIs and background services with extensive integration testing.
+Maintained and enhanced production financial systems, APIs and background services with automated integration testing.
 </div>
 
 <div class="project">
-<strong>User Avatar Upload Feature</strong><br>
+<strong>Avatar Upload Feature</strong><br>
 React, TypeScript<br>
-Developed reusable frontend component improving profile personalization and engagement.
+Built reusable profile image component improving personalization and user engagement.
 </div>
 
 <div class="project">
 <strong>Automated Reporting & Communication Platform</strong><br>
 .NET, SQL, SSRS<br>
-Built services for dynamic report generation and automated email delivery.
+Designed services for dynamic report generation and automated email delivery across business workflows.
 </div>
 
 <div class="project">
 <strong>Data Warehouse Automation</strong><br>
 T-SQL, SSIS, SSRS<br>
-Implemented ETL pipelines refreshing business data daily.
+Implemented ETL pipelines refreshing analytical data daily for reporting and insights.
 </div>
 
 </section>
@@ -118,9 +149,11 @@ Implemented ETL pipelines refreshing business data daily.
 <h2>Links</h2>
 <div class="links">
 <a href="https://github.com/Sofia1190757" target="_blank">GitHub</a>
-<a href="https://www.linkedin.com/in/sofia-bianchi-407878282" target="_blank">LinkedIn</a>
+<a href="https://linkedin.com/in/sofia-bianchi-407878282" target="_blank">LinkedIn</a>
 </div>
 </section>
+
+</div>
 
 <footer>
 © Sofia — Software Developer
