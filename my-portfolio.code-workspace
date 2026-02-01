@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "my-portfolio",
+			"path": "."
+		},
+		{
+			"name": "js",
+			"path": "js"
+		},
+		{
+			"name": "assets",
+			"path": "assets"
+		},
+		{
+			"name": "css",
+			"path": "css"
+		}
+	],
+	"settings": {}
+}

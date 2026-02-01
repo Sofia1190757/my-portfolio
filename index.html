@@ -1,163 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Sofia | Software Developer</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-
-<style>
-body {
-  font-family: Inter, system-ui, Arial, sans-serif;
-  margin: 0;
-  color: #1f2933;
-  background: #fafafa;
-  line-height: 1.7;
-}
-
-.container {
-  max-width: 880px;
-  margin: auto;
-  padding: 100px 20px;
-}
-
-.hero {
-  padding-top: 140px;
-}
-
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  color: #555;
-}
-
-section {
-  margin-top: 120px;
-}
-
-h2 {
-  font-size: 1.8rem;
-  margin-bottom: 25px;
-}
-
-.project {
-  margin-bottom: 35px;
-}
-
-.project strong {
-  font-size: 1.05rem;
-}
-
-.skills span {
-  display: inline-block;
-  margin: 6px 6px 6px 0;
-  padding: 7px 14px;
-  border-radius: 20px;
-  background: #eaeaea;
-  font-size: 0.85rem;
-}
-
-.links a {
-  margin-right: 20px;
-  font-weight: 600;
-  text-decoration: none;
-  color: #2563eb;
-}
-
-.links a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  text-align: center;
-  padding: 60px 20px;
-  color: #777;
-}
-</style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Sofia's Portfolio" />
+    <meta name="author" content="Sofia Bianchi" />
+    <title>Sofia Bianchi - Full-Stack Developer</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons -->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+    <!-- Core theme CSS -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f9f9f9; }
+        h1,h2,h3,h4 { font-weight: 600; }
+        .badge { font-size: 0.9rem; }
+    </style>
 </head>
+<body id="page-top">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="#page-top">Sofia Bianchi</a></li>
+            <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+            <li class="sidebar-nav-item"><a href="#about">About</a></li>
+            <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="sidebar-nav-item"><a href="#skills">Skills</a></li>
+            <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<body>
+    <!-- Hero Section -->
+    <header class="masthead d-flex align-items-center">
+        <div class="container text-center">
+            <h1 class="mb-1">Sofia Bianchi</h1>
+            <h3 class="mb-5"><em>Full-Stack Developer — C#/.NET & TypeScript</em></h3>
+            <a class="btn btn-primary btn-xl" href="#about">About Me</a>
+        </div>
+    </header>
 
-<div class="container">
+    <!-- About Section -->
+    <section class="content-section bg-light text-center" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p class="lead mb-4">
+                Software developer with nearly 10 years in IT and 7+ years in full-stack development.
+                I build robust web, desktop, and API systems using C#/.NET, TypeScript, React, and SQL.
+                I focus on clean architecture, automated testing, and maintainable solutions.
+            </p>
+            <a class="btn btn-dark btn-xl" href="#portfolio">View My Work</a>
+        </div>
+    </section>
 
-<div class="hero">
-  <h1>Sofia</h1>
-  <p>Senior Full-Stack Developer — C#/.NET & TypeScript</p>
-  <p>Building reliable, secure and maintainable software across fintech, SaaS and enterprise systems.</p>
-</div>
+    <!-- Portfolio Section -->
+    <section class="content-section" id="portfolio">
+        <div class="container text-center">
+            <h3 class="text-secondary mb-0">Portfolio</h3>
+            <h2 class="mb-5">Recent Projects</h2>
+            <div class="row gx-0">
+                <div class="col-lg-6 mb-4">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Fintech Applications</div>
+                                <p class="mb-0">Maintained and enhanced production financial systems, APIs, and background services in C#/.NET.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="Fintech project screenshot" />
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Avatar Upload Feature</div>
+                                <p class="mb-0">Built a reusable React component to allow users to upload profile images, improving engagement.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="Avatar feature screenshot" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section>
-<h2>About</h2>
-<p>
-Software developer with nearly 10 years in IT and 7+ years in full-stack development.
-Experienced in building and maintaining complex web, desktop and API systems using C#/.NET, React and SQL.
-Strong focus on clean architecture, testing and long-term maintainability.
-</p>
-</section>
+    <!-- Skills Section -->
+    <section class="content-section bg-light text-center" id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="d-flex flex-wrap justify-content-center mt-4">
+                <span class="badge bg-secondary m-1">C# / .NET</span>
+                <span class="badge bg-secondary m-1">TypeScript</span>
+                <span class="badge bg-secondary m-1">React</span>
+                <span class="badge bg-secondary m-1">Python</span>
+                <span class="badge bg-secondary m-1">SQL Server</span>
+                <span class="badge bg-secondary m-1">MongoDB</span>
+                <span class="badge bg-secondary m-1">Docker</span>
+            </div>
+        </div>
+    </section>
 
-<section>
-<h2>Experience & Selected Work</h2>
+    <!-- Contact / Footer -->
+    <footer class="footer text-center" id="contact">
+        <div class="container px-4">
+            <ul class="list-inline mb-4">
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-dark" href="https://github.com/Sofia1190757"><i class="fab fa-github"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-dark" href="https://linkedin.com/in/sofia-bianchi-407878282"><i class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+            <p class="text-muted small mb-0">&copy; 2026 Sofia Bianchi</p>
+        </div>
+    </footer>
 
-<div class="project">
-<strong>Fintech Applications & Services</strong><br>
-C#, .NET, SQL Server<br>
-Maintained and enhanced production financial systems, APIs and background services with automated integration testing.
-</div>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
 
-<div class="project">
-<strong>Avatar Upload Feature</strong><br>
-React, TypeScript<br>
-Built reusable profile image component improving personalization and user engagement.
-</div>
-
-<div class="project">
-<strong>Automated Reporting & Communication Platform</strong><br>
-.NET, SQL, SSRS<br>
-Designed services for dynamic report generation and automated email delivery across business workflows.
-</div>
-
-<div class="project">
-<strong>Data Warehouse Automation</strong><br>
-T-SQL, SSIS, SSRS<br>
-Implemented ETL pipelines refreshing analytical data daily for reporting and insights.
-</div>
-
-</section>
-
-<section>
-<h2>Skills</h2>
-<div class="skills">
-<span>C# / .NET</span>
-<span>TypeScript</span>
-<span>React</span>
-<span>Python</span>
-<span>Java</span>
-<span>SQL Server</span>
-<span>MongoDB</span>
-<span>Docker</span>
-<span>SSRS</span>
-<span>SSIS</span>
-<span>Git</span>
-</div>
-</section>
-
-<section>
-<h2>Links</h2>
-<div class="links">
-<a href="https://github.com/Sofia1190757" target="_blank">GitHub</a>
-<a href="https://linkedin.com/in/sofia-bianchi-407878282" target="_blank">LinkedIn</a>
-</div>
-</section>
-
-</div>
-
-<footer>
-© Sofia — Software Developer
-</footer>
-
+    <!-- Bootstrap core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS -->
+    <script src="js/scripts.js"></script>
 </body>
 </html>
